@@ -1,0 +1,49 @@
+{
+  "expo": {
+    "name": "Cizo",
+    "slug": "cizo2",
+    "version": "1.0.0",
+    "scheme": "cizo2",
+    "orientation": "default",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/splash-icon.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#F4F3EF"
+    },
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "app.cizo2.pro"
+    },
+    "android": {
+      "package": "app.cizo2.pro",
+      "adaptiveIcon": {
+        "backgroundColor": "#F4F3EF",
+        "foregroundImage": "./assets/android-icon-foreground.png",
+        "backgroundImage": "./assets/android-icon-background.png",
+        "monochromeImage": "./assets/android-icon-monochrome.png"
+      }
+    },
+    "web": {
+      "favicon": "./assets/favicon.png",
+      "bundler": "metro"
+    },
+    "plugins": [
+      "expo-router",
+      [
+        "expo-font",
+        {
+          "fonts": ["./assets/fonts/Satoshi-Variable.ttf"]
+        }
+      ],
+      "expo-secure-store",
+      [
+        "expo-splash-screen",
+        {
+          "backgroundColor": "#F4F3EF"
+        }
+      ]
+    ]
+  }
+}
